@@ -1,9 +1,16 @@
-# Alumno: ____   _____
+Evaluación de expresiones aritmeticas usando listas enlazadas
 
-> Implementar una funcion que resuelva expresiones aritmeticas
+## Integrantes: 
+- 1 ____   _____
+- 2 ____   _____
+- 3 ____   _____
 
-> Utilizar sus propias estructuras implementados en el curso
+## Instrucciones 
 
-> Extender el Stack de la lista enlazada (para nota 20), caso contrario del array circular (nota 18)
-
-> Total de tests: 7
+- Implementar los tres tipos de listas enladazadas: Forward List, Double List, Circular List 
+- Implementar una funcion que resuelva expresiones aritmeticas
+- No se permite uso de estructuras de datos del STL (vector, list, stack, queue, etc.)
+- No tocar el main.cpp
+  
+> Total de tests de listas: 24
+> Total de tests de expresiones: 7
