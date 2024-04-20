@@ -10,7 +10,7 @@
 - Implementar todas las funciones de los tres tipos de listas enladazadas: Forward List, Double List, Circular List 
 - Implementar una funcion que resuelva expresiones aritmeticas usando listas enlazadas.
 - Asegúrese que su implementación cumpla las complejidades algoritimicas discutidas en clase. 
-- No se permite uso de estructuras de datos del STL (vector, list, stack, queue, etc.)
+- No se permite uso de estructuras de datos del STL (vector, list, stack, queue, map, set, etc.)
 - No modificar el main.cpp
   
 > - Total de tests de listas: 24
