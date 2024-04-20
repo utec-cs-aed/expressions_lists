@@ -14,4 +14,4 @@
 - No modificar el main.cpp
   
 > - Total de tests de listas: 24
-> - Total de tests de expresiones: 7
+> - Total de tests de expresiones: 9
