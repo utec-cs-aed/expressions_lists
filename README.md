@@ -13,5 +13,5 @@
 - No se permite uso de estructuras de datos del STL (vector, list, stack, queue, etc.)
 - No modificar el main.cpp
   
-> Total de tests de listas: 24
-> Total de tests de expresiones: 7
+> - Total de tests de listas: 24
+> - Total de tests de expresiones: 7
