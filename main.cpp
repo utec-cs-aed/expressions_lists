@@ -33,31 +33,31 @@ void testExpressions()
     cout<<"*** Testing: Arithmetic Expression Solver *******"<<endl; 
     string expr="";
     expr = "5 + 8 / 2";
-    ASSERT(evaluate(expr).result == 9, "The function evaluate is not working");
+    ASSERT(solve(expr).result == 9, "The function evaluate is not working");
 
     expr = "(7 + 8) / 2";
-    ASSERT(evaluate(expr).result == 7.5, "The function evaluate is not working");
+    ASSERT(solve(expr).result == 7.5, "The function evaluate is not working");
 
     expr = "(6 + 8) / (5 + 2)";
-    ASSERT(evaluate(expr).result == 2, "The function evaluate is not working");
+    ASSERT(solve(expr).result == 2, "The function evaluate is not working");
 
     expr = "(6 + 8) / (5 + 2) * 12";
-    ASSERT(evaluate(expr).result == 24, "The function evaluate is not working");
+    ASSERT(solve(expr).result == 24, "The function evaluate is not working");
 
     expr = "(7 + 8) / 2.5";
-    ASSERT(evaluate(expr).result == 6, "The function evaluate is not working");
+    ASSERT(solve(expr).result == 6, "The function evaluate is not working");
     
     expr = "9.9 / 3 * 2";
-    ASSERT(evaluate(expr).result == 6.6, "The function evaluate is not working");
+    ASSERT(solve(expr).result == 6.6, "The function evaluate is not working");
 
     expr = "(6 + 8 / (5 + 2) * 3";
-    ASSERT(evaluate(expr).error == true, "The function evaluate is not working");
+    ASSERT(solve(expr).error == true, "The function evaluate is not working");
 
     expr = "(6 + 8) / (5 + 2) * 3 +";
-    ASSERT(evaluate(expr).error == true, "The function evaluate is not working");
+    ASSERT(solve(expr).error == true, "The function evaluate is not working");
 
     expr = "(6 + 8) 10 / (5 + 2) * 3 +";
-    ASSERT(evaluate(expr).error == true, "The function evaluate is not working");
+    ASSERT(solve(expr).error == true, "The function evaluate is not working");
 }
 
 int main()
