@@ -5,7 +5,7 @@
 using namespace std;
 
 void testList(List<int>* list){   
-    cout<<"*** Testing "<<list->name()<<"  *******"<<endl; 
+    cout<<"*** Testing: "<<list->name()<<"  *******"<<endl; 
     ASSERT(list->is_empty() == true, "The function is_empty is not working");
     ASSERT(list->size() == 0, "The function size is not working");    
     list->push_front(5);
@@ -30,6 +30,7 @@ void testList(List<int>* list){
 
 void testExpressions()
 {
+    cout<<"*** Testing: Arithmetic Expression Solver *******"<<endl; 
     string expr="";
     expr = "5 + 8 / 2";
     ASSERT(evaluate(expr).result == 9, "The function evaluate is not working");
@@ -42,6 +43,12 @@ void testExpressions()
 
     expr = "(6 + 8) / (5 + 2) * 12";
     ASSERT(evaluate(expr).result == 24, "The function evaluate is not working");
+
+    expr = "(7 + 8) / 2.5";
+    ASSERT(evaluate(expr).result == 6, "The function evaluate is not working");
+    
+    expr = "9.9 / 3 * 2";
+    ASSERT(evaluate(expr).result == 6.6, "The function evaluate is not working");
 
     expr = "(6 + 8 / (5 + 2) * 3";
     ASSERT(evaluate(expr).error == true, "The function evaluate is not working");
