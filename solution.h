@@ -8,7 +8,7 @@ struct Result{
 }
 
 
-Result evaluate(string input)
+Result solve(string input)
 {
     // 1- descomponer el input y validar
     // string -> vector<string>
