@@ -62,9 +62,9 @@ void testExpressions()
 
 int main()
 {    
-    test(new ForwardList<int>());
-    test(new DoubleList<int>());
-    test(new CircularList<int>());
+    testList(new ForwardList<int>());
+    testList(new DoubleList<int>());
+    testList(new CircularList<int>());
     testExpressions();
     return 0;
 }
