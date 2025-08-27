@@ -11,7 +11,7 @@ struct Result{
 Result solve(string input)
 {
     // 1- descomponer el input y validar
-    // string -> vector<string>
+    // string -> List<string>
     // "(5 + 10)/8.2"  -> "(","5","+","10",")","/","8.2"]  
 
     // 2- convertir de Infijo a Postfijo
